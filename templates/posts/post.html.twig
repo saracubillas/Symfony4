@@ -1,22 +1,34 @@
 {% extends 'base.html.twig' %}
 {% block title %} {{ title }}{% endblock %}
   {% block body %}
-      <h1>{{ title | upper }}</h1>
-      <p>Almost all the crises we have come from joining an aspect of the ego that no longer functions as the person we
-          think we are.</p>
-      <p>I'll explain it better with an example; imagine that you lose a job that made you feel like a very important
-          person, your niece leaves you, you retire, you get sick with depression or there are some very big changes in
-          your life. The stronger you identify with the ideas of who you think you are, the more likely you are to fall
-          into a crisis. The deeper that identification is, the harder it is to get out of that state.</p>
-      <p>If you want to achieve a state of happiness, you have to see beyond your ego and the internal dialogue. Make a
-          decision to give up the need for control, the need to be approved, and the need to judge. Those are the three
-          things that the ego does all the time. Control, Approval, Judgement. It is very important to be aware of them
-          every time they arise.</p>
-      <blockquote>It is very easy to fall into the trap of enjoying a yoga class, turning it into physical Yoga only to
-          feed the ego.
-      </blockquote>
-      <p>In the philosophy of yoga, the ego is considered an obstacle as long as it is in charge of our thoughts,
-          instead of being used for the service of the soul and the Divine. An important thing to know is that "the EGO
-          is not combated, the EGO is exposed", and that the best place to see it reflected is in the YOGA MAT. In our
-          case...the PADDLE BOARD!</p>
+      <section class="post">
+          <header class="major">
+              <span class="date">April 25, 2019</span>
+              <h1>{{ title|upper }}</h1>
+              <p>Aenean ornare velit lacus varius enim ullamcorper proin aliquam<br/>
+                  facilisis ante sed etiam magna interdum congue. Lorem ipsum dolor<br/>
+                  amet nullam sed etiam veroeros.</p>
+          </header>
+          <div class="image main"><img src="{{ asset('images/pic01.jpg') }}" alt=""/></div>
+          <p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis
+              dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet.
+              Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia
+              malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris,
+              fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis
+              enim turpis, lorem ipsum dolor sit amet nullam.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent
+              taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu
+              nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies
+              condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem
+              mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et
+              netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque
+              aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in
+              faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae
+              egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
+      </section>
   {% endblock %}
+
+
+
+
