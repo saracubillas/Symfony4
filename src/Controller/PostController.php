@@ -3,21 +3,20 @@
 namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 class PostController extends AbstractController
 {
     /**
-     * @Route()
+     * @Route("/", name="app_homepage")
      */
     public function home()
     {
-        return new Response('hello tech yogi friends!!');
+        return $this->render('posts/home.html.twig');
     }
 
     /**
-     * @Route("/blog/{post}")
+     * @Route("/blog/{post}", name="post_show")
      */
     public function showPost($post)
     {
